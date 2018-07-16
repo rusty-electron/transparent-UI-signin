@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins|Source+Sans+Pro');
+
+body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background: url(assets/vs.jpg) 50% 50% no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.container{
+    border: 1px solid rgba(255,255,255,0.3);
+    border-radius: 5px;
+    padding: 7em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-family: 'Source Sans Pro';
+    font-weight: lighter;
+}
+
+h2{
+    margin-top: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.input{
+    display: block;
+    color: rgba(255,255,255,0.7);
+    width: 320px;
+    height: 40px;
+    background: rgba(0,0,0,0.3);
+    outline: none;
+    border: 1px solid rgba(0,0,0,0.5);
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+.signin{
+    font-size: 16px;
+    color: rgba(255,255,255,0.7);
+    border: 2px solid rgba(0,0,0,0.3);
+    border-radius: 5px;
+    background: rgba(0,0,0,0.75);
+    width: 332px;
+    height: 50px;
+    font-family: 'Poppins';
+}
+
+.signin:hover{
+    background: rgba(0,0,0,.5);
+}
